@@ -1,0 +1,200 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #22b5a9;
+    text-align: center;
+    background-image: url('https://images.pexels.com/photos/6984996/pexels-photo-6984996.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Container styles */
+h1 {
+    color: #333;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:2cm;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+/* Label styles */
+label {
+    
+    font-size:20px;
+    margin-bottom: 20px;
+    color: #070807;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+/* Input and select styles */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Select box styles */
+select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent url('arrow-down.png') no-repeat right center;
+    background-size: 20px;
+    padding-right: 30px;
+}
+
+/* Submit button styles */
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+.error {
+    color: #ff0000;
+    margin-top: 10px;
+}
+#submit-button {
+    background-color: #c51313;
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: medium;
+}
+
+/* Reset default margin and padding */
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Header styles */
+h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #060605;
+}
+
+/* Timer styles */
+#timer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 18px;
+    color: #fb1111;
+    padding: 10px; /* Add some padding to the timer */
+    border-radius: 5px; /* Rounded corners for the timer box */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+}
+
+/* Quiz container styles */
+#quiz-questions {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Question styles */
+#quiz-questions p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+/* Answer choice styles */
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+/* Navigation button styles */
+button {
+    background-color: #060605;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+button:disabled {
+    background-color: #dcd6d6;
+    cursor: not-allowed;
+}
+
+/* Submit button styles */
+#submit-button {
+    display: block;
+    margin: 20px auto;
+    background-color: #060605; /* Darker orange for submit button */
+}
+
+/* Hover effect for buttons */
+button:hover, #submit-button:hover {
+    background-color: #388b24; /* Slightly lighter orange on hover */
+}
+
+/* Disable and hide previous and next buttons */
+#previous-button,
+#next-button {
+    display: none; /* Hide the buttons */
+}
+
+#score-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Styles for the score text */
+#user-score {
+    font-size: 36px;
+    font-weight: bold;
+    color: #0df60d; /* Blue color for the score */
+}

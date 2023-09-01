@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Score</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Your Quiz Score</h1>
+    <div id="score-container">
+        <p>Your score is: <span id="user-score">0</span></p>
+    </div>
+
+    <script>
+        // Retrieve the user's score from the URL
+        const urlParams = new URLSearchParams(window.location.search);
+        const scoreParam = urlParams.get('score');
+        if (scoreParam) {
+            document.getElementById('user-score').textContent = scoreParam;
+        }
+    </script>
+</body>
+</html>
